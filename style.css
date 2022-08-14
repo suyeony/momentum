@@ -7,15 +7,59 @@ html {
     display: none;
 }
 
+.hidden div {
+    font-size: 100px;
+}
+
+.hidden-login {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid white;
+    width: 350px;
+}
+
 body {
     height: 100%;
-    display: flex;
-    flex-direction: column;
+    color: white;
     background-repeat:no-repeat;
     background-size: cover;
     background-position:center;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: column; 
     align-items: center;
     justify-content: center;
-    color: white;
+   
     
+}
+
+#clock {
+    font-size: 100px;
+}
+
+#weather-box {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+#weather {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+/*#weather span {
+    height: 50px;
+    width: 50px;
+}*/
+
+#location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
 }
