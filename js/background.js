@@ -1,5 +1,5 @@
 const images = [
-    "dark-pastel-purple.jpeg", "731610.jpeg", "single-plain-violet.jpeg", "1467776.jpg"
+    "mountains.jpg", "nightsky.jpg", "sunset.jpg", "nature.jpg", "landscape,jpg"
 ];
 
 const chosenImage = images[Math.floor(Math.random() * images.length)];

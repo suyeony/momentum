@@ -3,6 +3,11 @@ html {
 
 }
 
+button {
+    background: none;
+    border: none;
+}
+
 .hidden {
     display: none;
 }
@@ -52,14 +57,13 @@ body {
     align-items: center;
 }
 
-/*#weather span {
-    height: 50px;
-    width: 50px;
-}*/
-
 #location {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-bottom: 10px;
+}
+
+#todo-list {
+    font-size: 25px;
 }
